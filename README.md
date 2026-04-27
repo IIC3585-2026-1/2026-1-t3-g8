@@ -4,6 +4,8 @@ Este repo consiste en una aplicación web de Sudoku que utiliza WebAssembly (WAS
 
 El código que resuelve el tablero `sudoku.c` fue extraído de [Sudoku in C - GeeksforGeeks](https://www.geeksforgeeks.org/c/sudoku-in-c/).
 
+Para poder integrarlo con WASM, a este código se le agregó la importación de emscripten y la función solve_sudoku que sirve de puente entre js y el algoritmo.
+
 ## Correr el proyecto (sin recompilar)
 
 Los archivos `.wasm` y `.js` ya están compilados en `sudoku-web-app/public/wasm/`.
