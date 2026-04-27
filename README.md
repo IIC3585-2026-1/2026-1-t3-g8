@@ -74,3 +74,15 @@ Se utilizó IA (Claude) como **asistente** de desarrollo a lo largo del proyecto
 ---
 
 ## Autoevaluación
+
+La IA ayudó a avanzar más rápido, especialmente para corregir bugs y proponer una base para generar tableros válidos. Sin embargo, no todas las respuestas eran suficientes por sí solas y fue necesario revisarlas para una correcta implementación.
+
+Detectamos dos limitaciones importantes:
+- Aceptar soluciones sin entenderlas completamente: algunas funcionaban, pero podían dejar código más difícil de entender.
+- Implementación deficiente: en la generación de código, no todo lo generado funcionaba correctamente en primera instancia, y era necesario validar los cambios e iterar.
+
+Para mejorar proponemos:
+- Aplicar una regla de que quien integra un cambio debe poder explicarlo.
+- Exigir pruebas mínimas por el equipo para todo cambio sugerido por IA en futuras tareas.
+
+En conclusión, la IA fue un buen apoyo para acelerar el trabajo, pero su uso debe ir siempre acompañado de una revisión crítica y validación.
