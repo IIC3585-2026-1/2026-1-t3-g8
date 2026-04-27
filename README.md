@@ -2,7 +2,7 @@
 
 Este repo consiste en una aplicación web de Sudoku que utiliza WebAssembly (WASM) para resolver el tablero. El solver está escrito en C y compilado a WASM con Emscripten. El frontend está construido con Next.js y React.
 
-El código que resuelve el tablero `sudoku.c`fue extraido de: AGREGAR LINK
+El código que resuelve el tablero `sudoku.c` fue extraído de [Sudoku in C - GeeksforGeeks](https://www.geeksforgeeks.org/c/sudoku-in-c/).
 
 ## Correr el proyecto (sin recompilar)
 
